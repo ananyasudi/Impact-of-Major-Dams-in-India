@@ -1,0 +1,52 @@
+.App2 {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 0px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 9;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 10px;
+    /* border-right: 1px solid black; */
+  }
+  
+  .sidenav a {
+    padding: 0px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #452a58;
+
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  #body-dam{
+    margin-left: 11%;
+    margin-right: 6%;
+  }
+  /* #super-body{
+    margin-top: 6%;
+  } */
+  .dot_size p{
+    /* display: flex; */
+    align-items: center;
+  }
+
+  .vl {
+    border-right: 1px solid black;
+    height: 100%;
+    width: 160px;
+  }
